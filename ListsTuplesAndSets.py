@@ -75,7 +75,6 @@ course_str = ', '.join(courses)
 print(course_str)
 
 # split: method convert string into list
-
 new_list = course_str.split(', ')
 print(new_list)
     
@@ -119,7 +118,7 @@ art_courses = {'History', 'Math', 'Art', 'Design'}
 # Sets do membership test more efficiently than tuples and lists
 print('Math' in cs_courses)
 
-# intersection: method use to check the same courses in two sets 
+# intersection: method use to check the same items in two sets 
 print(cs_courses.intersection(art_courses))
 
 # difference: method use to check the different courses in two sets

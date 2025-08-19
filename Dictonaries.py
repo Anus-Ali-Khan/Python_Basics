@@ -4,9 +4,9 @@
 student = {'name':'John', 'age':25, 'courses':['Math','CompSci']}
 
 print(student)
-print(student['name']) # if key doesm't exist in dict it will return error
+print(student['name']) # if key doesn't exist in dict it will return error
 
-# get(): method used to get value of specified key if it doesn't exist then iot will return None
+# get(): method used to get value of specified key if it doesn't exist then it will return None
 print(student.get('phone')) # this will return None
 # print(student.get('phone','Not Found'))
 
